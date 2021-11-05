@@ -1,0 +1,19 @@
+{
+  "name": "learn1",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^27.3.1",
+    "vite": "^2.6.4",
+    "vite-jest": "^0.0.4"
+  },
+  "dependencies": {
+    "redux": "^4.1.2"
+  }
+}
